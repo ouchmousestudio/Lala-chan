@@ -18,14 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyS-Mi-EZH">
-                                <rect key="frame" x="0.0" y="167" width="375" height="500"/>
-                                <state key="normal" backgroundImage="RaraChan"/>
-                                <connections>
-                                    <action selector="pressLala:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2rm-Sb-cDW"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8w-Vt-btF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RaraChanBack" translatesAutoresizingMaskIntoConstraints="NO" id="bvn-40-1HZ" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8w-Vt-btF" userLabel="Text">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ららちゃん" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ej6-fk-bNU">
@@ -41,20 +37,31 @@
                                     <constraint firstItem="ej6-fk-bNU" firstAttribute="centerX" secondItem="p8w-Vt-btF" secondAttribute="centerX" id="m5a-oy-Hce"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyS-Mi-EZH" userLabel="Lala Button">
+                                <rect key="frame" x="0.0" y="167" width="375" height="500"/>
+                                <state key="normal" backgroundImage="RaraChan"/>
+                                <connections>
+                                    <action selector="pressLala:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2rm-Sb-cDW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.74509803919999995" green="0.18039215689999999" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="bvn-40-1HZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JXm-wE-nW3"/>
                             <constraint firstItem="vyS-Mi-EZH" firstAttribute="top" secondItem="p8w-Vt-btF" secondAttribute="bottom" id="KyU-eu-Dm9"/>
                             <constraint firstItem="vyS-Mi-EZH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NUZ-Ae-Cyc"/>
                             <constraint firstItem="p8w-Vt-btF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Nxe-mz-RSP"/>
                             <constraint firstItem="p8w-Vt-btF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ueg-Cf-A9v"/>
+                            <constraint firstItem="bvn-40-1HZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vuf-hR-sU6"/>
                             <constraint firstItem="vyS-Mi-EZH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YBL-Ph-igQ"/>
                             <constraint firstItem="p8w-Vt-btF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bH5-cR-347"/>
                             <constraint firstItem="vyS-Mi-EZH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="167" id="gZ6-y6-5C0"/>
+                            <constraint firstItem="bvn-40-1HZ" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="hZa-YA-leV"/>
                             <constraint firstItem="vyS-Mi-EZH" firstAttribute="top" secondItem="p8w-Vt-btF" secondAttribute="bottom" id="hcM-FE-5wq"/>
                             <constraint firstItem="p8w-Vt-btF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ld2-wy-bnw"/>
                             <constraint firstItem="p8w-Vt-btF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="o75-iB-ytr"/>
                             <constraint firstItem="vyS-Mi-EZH" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="rdj-af-CpO"/>
+                            <constraint firstItem="bvn-40-1HZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t9t-mb-qCm"/>
                             <constraint firstItem="p8w-Vt-btF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xHY-jI-Drd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -67,5 +74,6 @@
     </scenes>
     <resources>
         <image name="RaraChan" width="375" height="500"/>
+        <image name="RaraChanBack" width="187.5" height="333.5"/>
     </resources>
 </document>
