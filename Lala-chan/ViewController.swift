@@ -7,14 +7,35 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController{
+    
+    var audioPlayer: AVAudioPlayer!
+    let soundArray = ["Rarachan01", "Rarachan02", "Rarachan03", "Rarachan04", "Rarachan05", "Rarachan06", "Rarachan07", "Rarachan08", "Rarachan09", ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    
+    @IBAction func pressLala(_ sender: UIButton) {
+        playSound(soundFileName : soundArray[Int.random(in: 0 ... 8)])
+    }
+    
+    
+    //soundplayer
+    func playSound(soundFileName : String) {
+        let soundUrl = Bundle.main.url(forResource: soundFileName, withExtension: "wav")!
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: soundUrl)
+        }
+        catch{
+            print(error)
+        }
+        audioPlayer.play()
+    }
+    
 }
 

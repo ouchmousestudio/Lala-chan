@@ -12,6 +12,15 @@
 		D2D92A9222F2B96600A9665E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D92A9022F2B96600A9665E /* Main.storyboard */; };
 		D2D92A9422F2B96700A9665E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D92A9322F2B96700A9665E /* Assets.xcassets */; };
 		D2D92A9722F2B96700A9665E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D92A9522F2B96700A9665E /* LaunchScreen.storyboard */; };
+		D2D92AA822F2B9E000A9665E /* Rarachan08.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92A9F22F2B9DF00A9665E /* Rarachan08.wav */; };
+		D2D92AA922F2B9E000A9665E /* Rarachan06.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92AA022F2B9DF00A9665E /* Rarachan06.wav */; };
+		D2D92AAA22F2B9E000A9665E /* Rarachan01.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92AA122F2B9DF00A9665E /* Rarachan01.wav */; };
+		D2D92AAB22F2B9E000A9665E /* Rarachan03.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92AA222F2B9E000A9665E /* Rarachan03.wav */; };
+		D2D92AAC22F2B9E000A9665E /* Rarachan04.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92AA322F2B9E000A9665E /* Rarachan04.wav */; };
+		D2D92AAD22F2B9E000A9665E /* Rarachan02.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92AA422F2B9E000A9665E /* Rarachan02.wav */; };
+		D2D92AAE22F2B9E000A9665E /* Rarachan05.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92AA522F2B9E000A9665E /* Rarachan05.wav */; };
+		D2D92AAF22F2B9E000A9665E /* Rarachan07.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92AA622F2B9E000A9665E /* Rarachan07.wav */; };
+		D2D92AB022F2B9E000A9665E /* Rarachan09.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D92AA722F2B9E000A9665E /* Rarachan09.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		D2D92A9322F2B96700A9665E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2D92A9622F2B96700A9665E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2D92A9822F2B96700A9665E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D92A9F22F2B9DF00A9665E /* Rarachan08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan08.wav; sourceTree = "<group>"; };
+		D2D92AA022F2B9DF00A9665E /* Rarachan06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan06.wav; sourceTree = "<group>"; };
+		D2D92AA122F2B9DF00A9665E /* Rarachan01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan01.wav; sourceTree = "<group>"; };
+		D2D92AA222F2B9E000A9665E /* Rarachan03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan03.wav; sourceTree = "<group>"; };
+		D2D92AA322F2B9E000A9665E /* Rarachan04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan04.wav; sourceTree = "<group>"; };
+		D2D92AA422F2B9E000A9665E /* Rarachan02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan02.wav; sourceTree = "<group>"; };
+		D2D92AA522F2B9E000A9665E /* Rarachan05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan05.wav; sourceTree = "<group>"; };
+		D2D92AA622F2B9E000A9665E /* Rarachan07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan07.wav; sourceTree = "<group>"; };
+		D2D92AA722F2B9E000A9665E /* Rarachan09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rarachan09.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,27 @@
 				D2D92A8E22F2B96600A9665E /* ViewController.swift */,
 				D2D92A9022F2B96600A9665E /* Main.storyboard */,
 				D2D92A9322F2B96700A9665E /* Assets.xcassets */,
+				D2D92A9E22F2B9B000A9665E /* Sound Files */,
 				D2D92A9522F2B96700A9665E /* LaunchScreen.storyboard */,
 				D2D92A9822F2B96700A9665E /* Info.plist */,
 			);
 			path = "Lala-chan";
+			sourceTree = "<group>";
+		};
+		D2D92A9E22F2B9B000A9665E /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D92AA122F2B9DF00A9665E /* Rarachan01.wav */,
+				D2D92AA422F2B9E000A9665E /* Rarachan02.wav */,
+				D2D92AA222F2B9E000A9665E /* Rarachan03.wav */,
+				D2D92AA322F2B9E000A9665E /* Rarachan04.wav */,
+				D2D92AA522F2B9E000A9665E /* Rarachan05.wav */,
+				D2D92AA022F2B9DF00A9665E /* Rarachan06.wav */,
+				D2D92AA622F2B9E000A9665E /* Rarachan07.wav */,
+				D2D92A9F22F2B9DF00A9665E /* Rarachan08.wav */,
+				D2D92AA722F2B9E000A9665E /* Rarachan09.wav */,
+			);
+			path = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +158,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D92A9722F2B96700A9665E /* LaunchScreen.storyboard in Resources */,
+				D2D92AAE22F2B9E000A9665E /* Rarachan05.wav in Resources */,
+				D2D92AAD22F2B9E000A9665E /* Rarachan02.wav in Resources */,
+				D2D92AB022F2B9E000A9665E /* Rarachan09.wav in Resources */,
+				D2D92AA922F2B9E000A9665E /* Rarachan06.wav in Resources */,
 				D2D92A9422F2B96700A9665E /* Assets.xcassets in Resources */,
+				D2D92AAB22F2B9E000A9665E /* Rarachan03.wav in Resources */,
+				D2D92AAF22F2B9E000A9665E /* Rarachan07.wav in Resources */,
+				D2D92AA822F2B9E000A9665E /* Rarachan08.wav in Resources */,
 				D2D92A9222F2B96600A9665E /* Main.storyboard in Resources */,
+				D2D92AAC22F2B9E000A9665E /* Rarachan04.wav in Resources */,
+				D2D92AAA22F2B9E000A9665E /* Rarachan01.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchmousestudios.Lala-chan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchmousestudios.Lala-chan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
