@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,65 +13,67 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lala_chan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RaraChanBack" translatesAutoresizingMaskIntoConstraints="NO" id="bvn-40-1HZ" userLabel="Background">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8w-Vt-btF" userLabel="Text">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ららちゃん" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ej6-fk-bNU">
-                                        <rect key="frame" x="87.5" y="57" width="200" height="53"/>
-                                        <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="40"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="ej6-fk-bNU" firstAttribute="centerY" secondItem="p8w-Vt-btF" secondAttribute="centerY" id="KdY-y5-nUV"/>
-                                    <constraint firstItem="ej6-fk-bNU" firstAttribute="centerX" secondItem="p8w-Vt-btF" secondAttribute="centerX" id="m5a-oy-Hce"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyS-Mi-EZH" userLabel="Lala Button">
-                                <rect key="frame" x="0.0" y="167" width="375" height="500"/>
-                                <state key="normal" backgroundImage="RaraChan"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyS-Mi-EZH" userLabel="Lala Button">
+                                <rect key="frame" x="0.0" y="633" width="375" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="pressLala:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2rm-Sb-cDW"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RaraChan" translatesAutoresizingMaskIntoConstraints="NO" id="Mnx-Oa-XmD">
+                                <rect key="frame" x="0.0" y="344" width="414" height="552"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Mnx-Oa-XmD" secondAttribute="height" multiplier="3:4" id="ObY-0Z-I1Y"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8w-Vt-btF" userLabel="Text">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="344"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ららちゃん" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ej6-fk-bNU">
+                                        <rect key="frame" x="106.5" y="147.5" width="201" height="49"/>
+                                        <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="shadowColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <size key="shadowOffset" width="1" height="2"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ej6-fk-bNU" firstAttribute="centerY" secondItem="p8w-Vt-btF" secondAttribute="centerY" id="ejf-QL-Ohc"/>
+                                    <constraint firstItem="ej6-fk-bNU" firstAttribute="centerX" secondItem="p8w-Vt-btF" secondAttribute="centerX" id="rVR-G2-7e4"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.74509803919999995" green="0.18039215689999999" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="bvn-40-1HZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JXm-wE-nW3"/>
-                            <constraint firstItem="vyS-Mi-EZH" firstAttribute="top" secondItem="p8w-Vt-btF" secondAttribute="bottom" id="KyU-eu-Dm9"/>
-                            <constraint firstItem="vyS-Mi-EZH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NUZ-Ae-Cyc"/>
-                            <constraint firstItem="p8w-Vt-btF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Nxe-mz-RSP"/>
-                            <constraint firstItem="p8w-Vt-btF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ueg-Cf-A9v"/>
-                            <constraint firstItem="bvn-40-1HZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vuf-hR-sU6"/>
-                            <constraint firstItem="vyS-Mi-EZH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YBL-Ph-igQ"/>
-                            <constraint firstItem="p8w-Vt-btF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bH5-cR-347"/>
-                            <constraint firstItem="vyS-Mi-EZH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="167" id="gZ6-y6-5C0"/>
-                            <constraint firstItem="bvn-40-1HZ" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="hZa-YA-leV"/>
-                            <constraint firstItem="vyS-Mi-EZH" firstAttribute="top" secondItem="p8w-Vt-btF" secondAttribute="bottom" id="hcM-FE-5wq"/>
-                            <constraint firstItem="p8w-Vt-btF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ld2-wy-bnw"/>
-                            <constraint firstItem="p8w-Vt-btF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="o75-iB-ytr"/>
-                            <constraint firstItem="vyS-Mi-EZH" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="rdj-af-CpO"/>
-                            <constraint firstItem="bvn-40-1HZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t9t-mb-qCm"/>
-                            <constraint firstItem="p8w-Vt-btF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xHY-jI-Drd"/>
+                            <constraint firstItem="p8w-Vt-btF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1Pd-Aw-iJW"/>
+                            <constraint firstItem="Mnx-Oa-XmD" firstAttribute="top" secondItem="p8w-Vt-btF" secondAttribute="bottom" id="BIc-D5-UM1"/>
+                            <constraint firstAttribute="bottom" secondItem="bvn-40-1HZ" secondAttribute="bottom" id="Fye-qd-q00"/>
+                            <constraint firstItem="Mnx-Oa-XmD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JBN-9Z-8O2"/>
+                            <constraint firstAttribute="bottom" secondItem="Mnx-Oa-XmD" secondAttribute="bottom" id="RtZ-rC-E4Z"/>
+                            <constraint firstItem="p8w-Vt-btF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="SJR-tA-OxS"/>
+                            <constraint firstItem="Mnx-Oa-XmD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vu2-Nl-xsh"/>
+                            <constraint firstItem="bvn-40-1HZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gdX-jz-Pnv"/>
+                            <constraint firstItem="bvn-40-1HZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hc2-NK-tmg"/>
+                            <constraint firstItem="p8w-Vt-btF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qiE-o3-JSe"/>
+                            <constraint firstAttribute="trailing" secondItem="bvn-40-1HZ" secondAttribute="trailing" id="yFj-BP-3ND"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+            <point key="canvasLocation" x="50.724637681159422" y="26.116071428571427"/>
         </scene>
     </scenes>
     <resources>
-        <image name="RaraChan" width="375" height="500"/>
-        <image name="RaraChanBack" width="187.5" height="333.5"/>
+        <image name="RaraChan" width="750" height="1000"/>
+        <image name="RaraChanBack" width="828" height="1792"/>
     </resources>
 </document>
